@@ -1,0 +1,11 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: react-fastapi-config
+data:
+  HNG_LESSON_DAY: "{{ .Values.HNG_LESSON_DAY }}"
+  HNG_API_ORIGINS: "{{ .Values.HNG_API_ORIGINS }}"
+  HNG_API_HOST: "{{ .Values.HNG_API_HOST }}"
+  HNG_API_PORT: "{{ .Values.HNG_API_PORT }}"
+  REACT_APP_API_URL: "{{ .Values.REACT_APP_API_URL }}"
+  REACT_APP_LESSON_DAY: "{{ .Values.REACT_APP_LESSON_DAY }}"

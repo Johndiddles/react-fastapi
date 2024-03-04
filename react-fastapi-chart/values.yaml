@@ -1,0 +1,6 @@
+HNG_LESSON_DAY: day1
+HNG_API_ORIGINS: http://localhost:8080
+HNG_API_HOST: "localhost"
+HNG_API_PORT: "8000"
+REACT_APP_API_URL: "http://localhost:8080/api"
+REACT_APP_LESSON_DAY: "day1"
