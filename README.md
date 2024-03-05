@@ -41,3 +41,7 @@
 ```bash
     helm install dev react-fastapi-api --values ./react-fastapi-cchart/values.yaml
 ```
+
+### Voila! we are live
+
+Go to [http://localhost:8080](http://localhost:8080) on your browser
